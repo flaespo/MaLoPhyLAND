@@ -42,21 +42,6 @@ Pipeline:
 5. Extract cluster assignments
 6. Analyze ASC vs DESC behaviour
 
-Graph partitioning is formulated as an optimization problem:
-
-Minimize:
-
-    || A - H Hᵀ ||_F²
-
-subject to:
-
-    H ≥ 0
-
-Where:
-- A is the similarity / adjacency / Laplacian matrix
-- H encodes cluster membership
-- Near-orthogonality of H enforces separation
-
 
 The algorithm used for Symmetric NMF is based on 
 "Moutier, F., Vandaele, A., & Gillis, N. (2021). Off-diagonal symmetric nonnegative matrix factorization. Numerical Algorithms, 88(2), 939-963. doi:10.1007/s11075 020 01063 9."
