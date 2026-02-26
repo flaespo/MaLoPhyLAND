@@ -6,7 +6,7 @@ Framework for landslide detection and structural deformation analysis using grap
 
 ---
 
-## 🌍 Scientific Context
+##  Scientific Context
 
 Persistent Scatterer Interferometric SAR (PSInSAR) provides displacement time series for stable radar targets (Pixel-PS).  
 Identifying coherent deformation patterns (e.g., landslides) requires clustering of time series without imposing geometric assumptions on cluster shape.
@@ -20,7 +20,7 @@ Here we use:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Detect landslide bodies from stable surrounding terrain
 - Compare clustering behaviour under:
@@ -31,7 +31,7 @@ Here we use:
 
 ---
 
-## 🧠 Method Overview
+##  Method Overview
 
 Pipeline:
 
